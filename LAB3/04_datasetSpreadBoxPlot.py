@@ -1,6 +1,6 @@
 """
 Program Name: Box Plotter
-Description : This program plots Histograms to show the distribution of a data
+Description : This program plots Box plots to show the spread of a data in a dataset
 Author      : Sujit Halder
 Roll No     : 2025PGCSCS11
 Course      : Machine Learning Laboratory (CS4205)
@@ -11,6 +11,7 @@ Language    : Python
 import matplotlib.pyplot as plt
 from sklearn.datasets import load_iris
 import pandas as pd
+import seaborn as sns
 
 # Load the Iris dataset
 iris = load_iris()
