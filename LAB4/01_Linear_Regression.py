@@ -130,6 +130,7 @@ plt.figure(figsize=(8,6))
 
 # Scatter plot of actual data
 plt.scatter(X, Y, color='black', label='Actual Data')
+
 # Regression lines
 plt.plot(X, [ls_w*x + ls_b for x in X], color='red',   label='Least Squares')
 plt.plot(X, [gd_w*x + gd_b for x in X], color='blue',  label='Gradient Descent')
