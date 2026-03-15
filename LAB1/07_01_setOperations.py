@@ -54,7 +54,7 @@ def run_test_cases():
         union, intersection, difference = basic_set_operations(set_a,set_b)
         print("Union of two sets:",union)
         print("Intersection of two sets:",intersection)
-        print("Difference of two set (set_a - set_b):",difference)
+        print("Difference of two sets (set_a - set_b):",difference)
 
 
 

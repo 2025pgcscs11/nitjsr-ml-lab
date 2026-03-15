@@ -43,7 +43,7 @@ def run_test_cases():
         if res is not None:
             print("The factorial of number",case,"is:",res,"\n")
         else:
-            print("The input number is invlid\n")
+            print("The input number",case,"is invalid\n")
 
             
 # Program execution starts here

@@ -40,7 +40,7 @@ def run_test_cases():
             else:
                 print("The string",case,"is not Palindrome\n")
         else:
-            print("The input is a invalid string\n")
+            print("The input",case,"is a invalid string\n")
 
 
 # Program execution starts here

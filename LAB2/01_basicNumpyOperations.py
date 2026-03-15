@@ -38,7 +38,7 @@ def basic_operations(arr1,arr2):
     multiplication = arr1 * arr2
 
     # Check if any element is zero
-    if(np.any(arr2 == 0)):
+    if np.any(arr2 == 0):
         division = None
     else:
         division = arr1 / arr2

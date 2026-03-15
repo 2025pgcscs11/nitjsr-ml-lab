@@ -67,7 +67,7 @@ def run_test_cases():
         else:
             print("Maximum number in the List is :",maximum)
             print("Minimum number in the List is :",minimum)
-            print("Average number in the List is :",average)
+            print("Average number of the List is :",average)
 
 
 

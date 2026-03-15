@@ -10,9 +10,14 @@ Language    : Python
 # Import all modules here
 from sklearn.model_selection import train_test_split
 import pandas as pd
+from sklearn.datasets import load_iris
 
-# Load dataset
-df = pd.read_csv("IRIS.csv")
+# Load the Iris dataset
+iris = load_iris()
+
+# Convert to a pandas DataFrame
+df = pd.DataFrame(data=iris.data, columns=iris.feature_names)
+df['species'] = pd.Categorical.from_codes(iris.target, iris.target_names)
 
 X = df.drop(columns=['species'])
 y = df['species']
