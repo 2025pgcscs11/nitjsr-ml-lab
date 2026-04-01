@@ -47,8 +47,7 @@ boston = fetch_openml(name="boston", version=1, as_frame=False)
 X = boston.data
 y = boston.target
 
-# 🔥 IMPORTANT FIX (very common error)
-# Convert data to numeric (avoids 'str has no attribute conjugate' error)
+# Convert data to numeric 
 X = np.array(X, dtype=np.float64)
 y = np.array(y, dtype=np.float64)
 
