@@ -165,11 +165,11 @@ for i, tree in enumerate(rf.trees):
     print_tree(tree.root)
 
 
-rf = RandomForestClassifier(n_estimators=3, max_depth=3)
-rf.fit(X, y)
+# rf = RandomForestClassifier(n_estimators=3, max_depth=3)
+# rf.fit(X, y)
 
 # Visualize first tree
-tree = rf.estimators_[0]
+# tree = rf.estimators_[0]
 
 # dot_data = export_graphviz(
 #     tree,
