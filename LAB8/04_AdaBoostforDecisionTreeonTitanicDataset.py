@@ -1,50 +1,76 @@
 """
-Program Name: Implement AdaBoost for boosting a Decision Tree
-Description : This program implements AdaBoost for boosting a Decision Tree on Titanic dataset
+Program Name: AdaBoost with Decision Tree on Titanic Dataset
+Description : Apply AdaBoost to improve weak classifier performance
 Course      : Machine Learning Laboratory (CS4205)
 Date        : 16-04-2026
 Language    : Python
 """
 
-# Import all modules here
+# ==============================
+# IMPORTS
+# ==============================
 import pandas as pd
+import seaborn as sns
+
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.metrics import accuracy_score, classification_report
-import seaborn as sns
 
-# Load Titanic dataset (train.csv from Kaggle)
+
+# ==============================
+# LOAD DATASET (AUTO FETCH)
+# ==============================
 df = sns.load_dataset('titanic')
 
-print(df.head())
+print("First 5 rows:\n", df.head())
+print("\nColumns:\n", df.columns)
 
-# Data Preprocessing
+
+# ==============================
+# DATA PREPROCESSING
+# ==============================
 
 # Select features
-df = df[['Survived', 'Pclass', 'Sex', 'Age', 'Fare']]
+df = df[['survived', 'pclass', 'sex', 'age', 'fare']].copy()
 
-# Handle missing values
-df['Age'].fillna(df['Age'].median(), inplace=True)
+# Handle missing values (correct way)
+df['age'] = df['age'].fillna(df['age'].median())
 
-# Encode categorical feature
-df['Sex'] = df['Sex'].map({'male': 0, 'female': 1})
+# Encode categorical variable
+df['sex'] = df['sex'].map({'male': 0, 'female': 1})
+
+# Final safety check (VERY IMPORTANT)
+print("\nMissing values:\n", df.isnull().sum())
+
+# Drop any remaining NaN rows (just in case)
+df = df.dropna()
 
 # Split X and y
-X = df.drop('Survived', axis=1)
-y = df['Survived']
+X = df.drop('survived', axis=1)
+y = df['survived']
 
-# Train-Test Split
+
+# ==============================
+# TRAIN-TEST SPLIT
+# ==============================
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.2, random_state=42
 )
 
-# Weak Classifier
+
+# ==============================
+# WEAK CLASSIFIER (DECISION STUMP)
+# ==============================
 weak_clf = DecisionTreeClassifier(max_depth=1, random_state=42)
 weak_clf.fit(X_train, y_train)
 
+y_pred_weak = weak_clf.predict(X_test)
 
-# AdaBoost Model
+
+# ==============================
+# ADABOOST MODEL
+# ==============================
 ada = AdaBoostClassifier(
     estimator=DecisionTreeClassifier(max_depth=1),
     n_estimators=100,
@@ -54,16 +80,16 @@ ada = AdaBoostClassifier(
 
 ada.fit(X_train, y_train)
 
-
-# Evaluation
-# Weak model predictions
-y_pred_weak = weak_clf.predict(X_test)
-
-# AdaBoost predictions
 y_pred_ada = ada.predict(X_test)
 
-print("Weak Learner Accuracy:", accuracy_score(y_test, y_pred_weak))
-print("AdaBoost Accuracy   :", accuracy_score(y_test, y_pred_ada))
 
-print("\nAdaBoost Classification Report:\n")
+# ==============================
+# EVALUATION
+# ==============================
+print("\n===== RESULTS =====")
+
+print("Weak Learner Accuracy :", accuracy_score(y_test, y_pred_weak))
+print("AdaBoost Accuracy     :", accuracy_score(y_test, y_pred_ada))
+
+print("\nClassification Report (AdaBoost):\n")
 print(classification_report(y_test, y_pred_ada))
