@@ -1,7 +1,7 @@
 """
 Program Name: Generator of ROC curve in a Binary Classification task
 Description : This program implements Logistic Regression from Scratch for Titanic Dataset
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 05-03-2026
 Language    : Python
 """

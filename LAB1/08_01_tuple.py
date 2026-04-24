@@ -3,7 +3,7 @@ Program Name: Tuple Dsiplayer and Calculator of frequency of its element
 Description : This program unpacks and displays a tuple elements and calaculate frequency of each elements in it 
 Author      : Sujit Halder
 Roll No     : 2025PGCSCS11
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 22-01-2026
 Language    : Python
 """

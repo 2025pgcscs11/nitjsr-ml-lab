@@ -1,7 +1,7 @@
 """
 Program Name: classifier of a passenger survived or not in the Titanic dataset
 Description : This program classifies whether a passenger survived or not in the Titanic dataset and evaluate its performance
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 05-03-2026
 Language    : Python
 """

@@ -3,7 +3,7 @@ Program Name: Histogram Plotter
 Description : This program plots Histograms to show the distribution of a data
 Author      : Sujit Halder
 Roll No     : 2025PGCSCS11
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 02-02-2026
 Language    : Python
 """

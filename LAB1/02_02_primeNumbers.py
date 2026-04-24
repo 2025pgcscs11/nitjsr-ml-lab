@@ -3,7 +3,7 @@ Program Name: Prime Number Generator
 Description : This program print all prime numbers between 1 and 100
 Author      : Sujit Halder
 Roll No     : 2025PGCSCS11
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 22-01-2026
 Language    : Python
 """

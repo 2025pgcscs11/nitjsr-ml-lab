@@ -1,7 +1,7 @@
 """
 Program Name: Evaluator of self written Linear Regression Model on Boston Housing Dataset
 Description : This program implements Linear Regression from Scratch (Least Squares Method)for Boston Housing Dataset and evalate its performance
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory(CS4201)
 Date        : 05-03-2026
 Language    : Python
 """

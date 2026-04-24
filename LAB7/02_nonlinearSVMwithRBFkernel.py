@@ -1,7 +1,7 @@
 """
 Program Name: Implement Non-linear SVM with RBF kernel
 Description : This program implements Non-Linear SVM with RBF kernel for a non-linear dataset
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory ((CS4201)
 Date        : 09-04-2026
 Language    : Python
 """

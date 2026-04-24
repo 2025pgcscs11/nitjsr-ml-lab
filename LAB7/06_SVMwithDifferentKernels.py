@@ -1,7 +1,7 @@
 """
 Program Name: Implement SVM with different kernel functions
 Description : This program implements SVM with different kernel functions and evaluate their performance on a binary classification task
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 09-04-2026
 Language    : Python
 """

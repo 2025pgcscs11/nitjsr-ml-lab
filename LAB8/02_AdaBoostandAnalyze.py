@@ -1,7 +1,7 @@
 """
 Program Name: Implement AdaBoost for boosting a weak classifier
 Description : This program implements AdaBoost for boosting a weak classifier and analyze the improvement.
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 16-04-2026
 Language    : Python
 """

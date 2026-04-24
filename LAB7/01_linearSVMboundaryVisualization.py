@@ -1,7 +1,7 @@
 """
 Program Name: Implement SVM
 Description : This program implements SVM and shows the decision boundaries
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 09-04-2026
 Language    : Python
 """

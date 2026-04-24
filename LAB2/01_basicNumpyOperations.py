@@ -3,7 +3,7 @@ Program Name: Basic Operations on Numpy Array
 Description : This program implements four basic operations respectively addition, Subtraction, multiplication, division
 Author      : Sujit Halder
 Roll No     : 2025PGCSCS11
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 29-01-2026
 Language    : Python
 """

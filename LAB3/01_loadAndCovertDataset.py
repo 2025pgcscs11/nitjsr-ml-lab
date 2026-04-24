@@ -3,7 +3,7 @@ Program Name: Iris dataset loader and Converter to Panadas Dataframe
 Description : This program loads Iris dataset and convert the datset into Pnadas DataFrame
 Author      : Sujit Halder
 Roll No     : 2025PGCSCS11
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 02-02-2026
 Language    : Python
 """

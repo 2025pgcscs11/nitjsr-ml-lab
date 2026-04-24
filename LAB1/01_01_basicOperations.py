@@ -3,7 +3,7 @@ Program Name: Basic Arithmatic Operations
 Description : This program implements four basic operations respectively sum, difference, product, quotient
 Author      : Sujit Halder
 Roll No     : 2025PGCSCS11
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 22-01-2026
 Language    : Python
 """

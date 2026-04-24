@@ -1,7 +1,7 @@
 """
 Program Name: Stacking Classifier on Titanic Dataset
 Description : Implement stacking using multiple classifiers
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 16-04-2026
 Language    : Python
 """

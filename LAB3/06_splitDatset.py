@@ -2,7 +2,7 @@
 Program Name: Load and Split Iris dataset into a train and test dataset
 Description : This program split a dataset into train and test sets
 Roll No     : 2025PGCSCS11
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 02-02-2026
 Language    : Python
 """

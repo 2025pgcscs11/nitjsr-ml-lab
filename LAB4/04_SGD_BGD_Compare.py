@@ -2,7 +2,7 @@
 Program Name: Comparator of Stochastic Gradient Descent Linear Regression and Batch Gradient Descent Linear Regression Model
 Description : This program implements Gradient Descent Linear Regression Model and Compares both SGD and BGD Linear Regression Model using the numerical columns of the IRIS Dataset
 Roll No     : 2025PGCSCS11
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 19-02-2026
 Language    : Python
 """

@@ -3,7 +3,7 @@ Program Name: Matrix Multiplication Calcultor
 Description : This program calculates multiplication of matrices
 Author      : Sujit Halder
 Roll No     : 2025PGCSCS11
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 29-01-2026
 Language    : Python
 """

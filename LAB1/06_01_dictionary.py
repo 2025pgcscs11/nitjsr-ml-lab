@@ -3,7 +3,7 @@ Program Name: Average score and Highest Score Finder
 Description : This program find highest score and calculate the average score of students
 Author      : Sujit Halder
 Roll No     : 2025PGCSCS11
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 22-01-2026
 Language    : Python
 """

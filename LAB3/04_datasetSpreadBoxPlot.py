@@ -3,7 +3,7 @@ Program Name: Box Plotter
 Description : This program plots Box plots to show the spread of a data in a dataset
 Author      : Sujit Halder
 Roll No     : 2025PGCSCS11
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 02-02-2026
 Language    : Python
 """

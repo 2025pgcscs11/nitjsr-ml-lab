@@ -1,7 +1,7 @@
 """
 Program Name: Bagging using Random Forest on Titanic Dataset
 Description : Apply Random Forest and evaluate using accuracy and cross-validation
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 16-04-2026
 Language    : Python
 """

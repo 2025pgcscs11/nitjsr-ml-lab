@@ -3,7 +3,7 @@ Program Name: Factorial Calculator
 Description : This program calculates factorial of a number
 Author      : Sujit Halder
 Roll No     : 2025PGCSCS11
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 22-01-2026
 Language    : Python
 """

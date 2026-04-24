@@ -1,7 +1,7 @@
 """
 Program Name: Implement Non-Linear SVM with an RBF
 Description : This program implements Non-Linear SVM with an RBF kernel and visualize the decision boundary
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 09-04-2026
 Language    : Python
 """

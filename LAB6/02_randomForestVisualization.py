@@ -1,7 +1,7 @@
 """
 Program Name: Visulization of Random Forest
 Description : This program implements Random Forest and Visulaize it with a sample dataset
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 12-03-2026
 Language    : Python
 """

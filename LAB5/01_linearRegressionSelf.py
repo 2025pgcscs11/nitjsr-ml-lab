@@ -1,7 +1,7 @@
 """
 Program Name: Evaluator of self written Linear Regression Model
 Description : This program implements Linear Regression from Scratch (Least Squares Method) and evalate its performance
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 05-03-2026
 Language    : Python
 """

@@ -3,7 +3,7 @@ Program Name: Sign Checker
 Description : This program checks whether a number is postive ,negtive or zero 
 Author      : Sujit Halder
 Roll No     : 2025PGCSCS11
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 22-01-2026
 Language    : Python
 """

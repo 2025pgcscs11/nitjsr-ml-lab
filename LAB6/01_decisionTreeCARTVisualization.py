@@ -1,7 +1,7 @@
 """
 Program Name: Visulization of Decision Tree using CART Algorithm
 Description : This program implements Decision Tree using CART algorithm and Visulaize it with a sample dataset
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 12-03-2026
 Language    : Python
 """

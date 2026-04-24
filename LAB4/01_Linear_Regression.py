@@ -2,7 +2,7 @@
 Program Name: Linear Regression Model
 Description : This program implements Linear Regression from Scratch (Least Squares Method & Gradient Descent)
 Roll No     : 2025PGCSCS11
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 18-02-2026
 Language    : Python
 """

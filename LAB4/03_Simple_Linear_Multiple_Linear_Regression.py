@@ -2,7 +2,7 @@
 Program Name: Comparator of Simple Linear Regression and Multiple Linear Regression Model
 Description : This program compares and calculates various evaluation matrices of Simple Linear Regression Model and Multiple Linear Regression Model using the IRIS dataset
 Roll No     : 2025PGCSCS11
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 19-02-2026
 Language    : Python
 """

@@ -1,7 +1,7 @@
 """
 Program Name: Comparator of SLR and MLR on a same dataset
 Description : This program compares simple Linear Regression and Multiple Linear Regression on a same dataset
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 05-03-2026
 Language    : Python
 """

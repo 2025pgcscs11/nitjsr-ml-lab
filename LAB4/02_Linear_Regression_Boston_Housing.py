@@ -2,7 +2,7 @@
 Program Name: Linear Regression Model on Boston Housing Dataset
 Description : This program compares performance of  inbuild Linear Regression model and self-build Gradient Descent based Linear Regression Model
 Roll No     : 2025PGCSCS11
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 19-02-2026
 Language    : Python
 """

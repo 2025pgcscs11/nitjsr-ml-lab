@@ -2,7 +2,7 @@
 Program Name: Scatter Matrix Generator
 Description : This program creates a scatter matrix for the Iris dataset to visualize relationships between features
 Roll No     : 2025PGCSCS11
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 02-02-2026
 Language    : Python
 """

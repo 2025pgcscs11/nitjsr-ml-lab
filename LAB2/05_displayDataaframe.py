@@ -3,7 +3,7 @@ Program Name: CSV file loader and DataFrame Displayer
 Description : This program displays first 10 rows of a pandas dataframe
 Author      : Sujit Halder
 Roll No     : 2025PGCSCS11
-Course      : Machine Learning Laboratory (CS4205)
+Course      : Machine Learning Laboratory (CS4201)
 Date        : 29-01-2026
 Language    : Python
 """
